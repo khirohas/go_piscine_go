@@ -3,9 +3,9 @@ package piscine
 import "ft"
 
 func PrintReverseAlphabet() {
-	
-	for i := 0; i < 26; i++ {
-		ft.PrintRune(rune(int('z') - i))
+
+	for i := 'z'; i >= 'a'; i-- {
+		ft.PrintRune(rune(i))
 	}
 	ft.PrintRune('\n')
 }

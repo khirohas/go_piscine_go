@@ -23,5 +23,7 @@ func outputComb(f, s, t int) {
 	if !(f == 7 && s == 8 && t == 9) {
 		ft.PrintRune(',')
 		ft.PrintRune(' ')
+	} else {
+		ft.PrintRune('\n')
 	}
 }
